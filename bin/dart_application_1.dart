@@ -7,5 +7,6 @@ void main(List<String> arguments) {
   //var nomes = <String>[];
 
   var nomes = ['joaquim', 'maria', 'ana', 'rivaldo', 'narci', 'paula'];
+  nomes.add('pedro'); // adicinando mais um a lista
   print(nomes);
 }
