@@ -7,5 +7,5 @@ void main(List<String> arguments) {
   //var nomes = <String>[];
 
   var nomes = ['joaquim', 'maria', 'ana', 'rivaldo', 'narci', 'paula'];
-  print(nomes[5]);
+  print(nomes);
 }
