@@ -8,5 +8,6 @@ void main(List<String> arguments) {
 
   var nomes = ['joaquim', 'maria', 'ana', 'rivaldo', 'narci', 'paula'];
   nomes.add('pedro'); // adicinando mais um a lista
+  nomes.insert(0, 'rebeca'); // adicionando rebeca na primeira da lista
   print(nomes);
 }
