@@ -13,10 +13,14 @@ void main(List<String> arguments) {
   var quantidadeElementos = nomes.length;
   print(quantidadeElementos); // quantidade de elementos
 
-  var contador = 0; // criando um contdor
+  for (var contador = 0; contador < quantidadeElementos; contador++) {  // adicionando o comando for
+    print(nomes[contador]);
+  }
+
+  /**var contador = 0; // criando um contdor
 
   do { // adicionando o comando do while
     print(nomes[contador]);
     contador++;
-  } while (contador < quantidadeElementos);
+  } while (contador < quantidadeElementos);**/
 }
