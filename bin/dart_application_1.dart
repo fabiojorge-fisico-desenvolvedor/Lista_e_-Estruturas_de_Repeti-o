@@ -14,8 +14,9 @@ void main(List<String> arguments) {
   print(quantidadeElementos); // quantidade de elementos
 
   var contador = 0; // criando um contdor
-  while (contador < quantidadeElementos) {
+
+  do { // adicionando o comando do while
     print(nomes[contador]);
     contador++;
-  }
+  } while (contador < quantidadeElementos);
 }
