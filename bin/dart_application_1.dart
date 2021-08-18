@@ -14,9 +14,12 @@ void main(List<String> arguments) {
       .length; // armazena na variavel a quantidade de elementos na lista nomes
   print(quantidadeElementos); // quantidade de elementos
 
+  nomes.forEach(imprimir); // forEach - imprimi cada elemento a partir da função criada
+
+  /**
   for (var nome in nomes) { // variável for mais enxuta
     print(nome);
-  }
+  }**/
 
   /**
   for (var contador = 0; contador < quantidadeElementos; contador++) {
@@ -30,4 +33,8 @@ void main(List<String> arguments) {
     print(nomes[contador]);
     contador++;
   } while (contador < quantidadeElementos);**/
+}
+
+void imprimir(String nome) {
+  print(nome);
 }
