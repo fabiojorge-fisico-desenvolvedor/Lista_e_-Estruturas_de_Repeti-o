@@ -14,9 +14,8 @@ void main(List<String> arguments) {
       .length; // armazena na variavel a quantidade de elementos na lista nomes
   print(quantidadeElementos); // quantidade de elementos
 
-  nomes.forEach((String nome) { // função anônima
-    print(nome);
-  });
+  nomes.forEach((nome) => print(
+      nome)); // agora como já inicia a variavel nome ele já é um string então posso eliminar e tbm como ela só tm um único comando posso eliminar o bloco de comandos
 
   /**
   for (var nome in nomes) { // variável for mais enxuta
