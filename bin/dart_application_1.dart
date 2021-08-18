@@ -10,12 +10,19 @@ void main(List<String> arguments) {
   nomes.add('pedro'); // adicinando mais um a lista
   nomes.insert(0, 'rebeca'); // adicionando rebeca na primeira da lista
   nomes.removeAt(1); // removendo o segundo da lista, no caso o joaquim sai
-  var quantidadeElementos = nomes.length;
+  var quantidadeElementos = nomes
+      .length; // armazena na variavel a quantidade de elementos na lista nomes
   print(quantidadeElementos); // quantidade de elementos
 
-  for (var contador = 0; contador < quantidadeElementos; contador++) {  // adicionando o comando for
-    print(nomes[contador]);
+  for (var nome in nomes) { // variável for mais enxuta
+    print(nome);
   }
+
+  /**
+  for (var contador = 0; contador < quantidadeElementos; contador++) {
+    // adicionando o comando for
+    print(nomes[contador]);
+  }*/
 
   /**var contador = 0; // criando um contdor
 
