@@ -12,4 +12,10 @@ void main(List<String> arguments) {
   nomes.removeAt(1); // removendo o segundo da lista, no caso o joaquim sai
   var quantidadeElementos = nomes.length;
   print(quantidadeElementos); // quantidade de elementos
+
+  var contador = 0; // criando um contdor
+  while (contador < quantidadeElementos) {
+    print(nomes[contador]);
+    contador++;
+  }
 }
